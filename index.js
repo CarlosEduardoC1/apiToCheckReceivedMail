@@ -11,7 +11,7 @@ app.use(cors());
 
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log("Server is listening...url: " + Server);
+    console.log("Server is listening...");
 });
 
 app.route('/sendmail').get((req, res) => {
